@@ -26,11 +26,11 @@
 
         // 2ème méthode
         echo("<br><br> Deuxième méthode<br>");
-        if ($age < 18 AND $gender == "homme"){
+        if ($age < 18 && $gender == "homme"){
             echo("Vous êtes un homme et vous êtes mineur");
-        } elseif ($age < 18 AND $gender =="femme"){
+        } elseif ($age < 18 && $gender =="femme"){
             echo("Vous êtes une femme et vous êtes mineure");
-        } elseif ($age >= 18 AND $gender == "homme"){
+        } elseif ($age >= 18 && $gender == "homme"){
             echo("Vous êtes un homme et vous êtes majeur");
         } else{
           echo("Vous êtes une femme et vous êtes majeure");

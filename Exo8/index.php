@@ -19,7 +19,7 @@
           echo("<br>"); 
           if ($number % 5 == 0 && $number % 3 == 0){
             echo("FizzBuzz");
-          }elseif ($number % 3 ==0) {
+          }elseif ($number % 3 == 0) {
             echo("Fizz");
           }elseif ($number % 5 == 0) {
             echo("Buzz");

@@ -9,7 +9,10 @@
       <p>
       <?php
         $var_a =  null;
-        if (is_null($var_a)){
+
+        if ($var_a == null){
+          echo $var_a;
+        } else {
           echo("Je suis une variable sans valeur");
         }
         // echo $var_a ?: 'Je suis une variable sans valeur';

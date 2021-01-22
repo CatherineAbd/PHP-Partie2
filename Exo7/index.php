@@ -9,8 +9,11 @@
       <p>
       <?php
         $var_b = 'Je suis une variable qui a une valeur';
-        if (is_null($var_b)){
-          echo "Je suis une variable sans valeur";
+        // $var_b = null;
+        if (isset($var_b)){
+          echo $var_b;
+        }else {
+          echo("Je suis une variable sans valeur <br>");
         }
       ?>
       </p>
